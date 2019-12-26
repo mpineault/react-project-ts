@@ -29,9 +29,9 @@ const App: React.FC<AppProps> = props => {
   // Render
   return (
     <AppStyles>
-      <>
+      <div>
         <button onClick={onClickLanguage}>{intl.locale}</button>
-      </>
+      </div>
       <>{children}</>
     </AppStyles>
   );
